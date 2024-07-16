@@ -1,0 +1,64 @@
+# Java specific ignores
+*.class
+*.jar
+*.war
+*.ear
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Lombok generated files
+*.lombok
+
+# JetBrains Rider
+.idea/
+.idea_modules/
+*.sln
+*.csproj
+*.csproj.user
+*.suo
+
+# Intellij IDEA
+*.ipr
+*.iws
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+bin/
