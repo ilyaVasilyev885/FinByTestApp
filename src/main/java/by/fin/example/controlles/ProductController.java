@@ -91,6 +91,8 @@ public class ProductController {
      * @param photoDTO The PhotoDTO containing details necessary for background removal.
      * @return ResponseEntity containing the updated ProductDTO with modified photos and HTTP status 200 (OK).
      * @throws ResponseStatusException if no product exists with the specified ID, returning HTTP status 400 (BAD_REQUEST).
+     *
+     * To test this endpoint you need to fetch photo's url with background using GET endpoint. All products have one.
      */
     @PutMapping(REMOVE_BACKGROUND + ID)
     public ResponseEntity<ProductDTO> removeBackground(@PathVariable Long id, @RequestBody PhotoDTO photoDTO) {

@@ -3,8 +3,6 @@ package by.fin.example.entities;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.util.List;
-
 @Getter
 @Setter
 @Builder

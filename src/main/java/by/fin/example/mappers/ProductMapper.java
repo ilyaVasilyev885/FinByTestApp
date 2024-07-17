@@ -33,7 +33,9 @@ public interface ProductMapper {
     default List<FeatureModel> getFeaturesFromDTO(List<String> source) {
         return Optional.ofNullable(source).orElse(Collections.emptyList())
                 .stream()
-                .map(feature -> FeatureModel.builder().name(feature).build())
+                .map(feature -> FeatureModel.builder()
+                        .name(feature)
+                        .build())
                 .toList();
     }
 }
